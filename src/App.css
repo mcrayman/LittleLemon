@@ -176,3 +176,46 @@ footer img {
 .doormat a:hover {
   color: #F4CE14;
 }
+
+.bookingform {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: auto;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  background-color: #495e57;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  align-self: center;
+  margin: 0 0 50px 0;
+}
+
+label {
+  margin: 30px 0 5px 5px;
+}
+
+.form-header {
+  color: #F4CE14;
+  font-family: Markazi Text;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  align-self: center;
+}
+
+.form-button {
+  margin: 50px 0 0 0;
+  width: 200px;
+  align-self: center;
+}
+
