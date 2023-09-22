@@ -1,0 +1,178 @@
+
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; /* Align header content to left and right */
+  background-color: #EDEFEE;
+  padding: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+nav {
+  color: #EDEFEE;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin: 12px;
+}
+
+nav a {
+  color: #333333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F4CE14;
+}
+
+main {
+  background-color: #495e57;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: auto;
+  align-items: center;
+  padding: 50px 0 50px 0;
+}
+
+main img {
+  width: 90%;
+  height: auto;
+}
+
+.text-overlay {
+  position: absolute; /* Position the text absolutely within the container */
+  top: 50%; /* Position it 50% from the top */
+  left: 50%; /* Position it 50% from the left */
+  transform: translate(-50%, -50%); /* Center the text horizontally and vertically */
+  background-color: rgba(255, 255, 255, 0.8); /* Add a background color with transparency */
+  width: 450px; /* Set a fixed width for the text box */
+  height: auto; /* Set a fixed height for the text box */
+  padding: 10px; /* Add padding to the text for readability */
+  text-align: center; /* Center-align the text */
+}
+
+.main-header {
+  color: #F4CE14;
+  font-family: Markazi Text;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.chicago {
+  font-family: Markazi Text;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.intro-info {
+  max-width: 80%;
+  font-family: Karla;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 50px;
+  text-align: center;
+  padding: 0 0 40px 0;
+  color: #EDEFEE;
+}
+
+.specials {
+  display: flex;
+  flex-flow: column wrap;
+  height: auto;
+  padding: 20px;
+  background-color: #EDEFEE
+}
+
+.subtitle {
+  align-self: center;
+  font-family: Markazi Text;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+.card {
+  background-color: #fbdabb;
+  margin: 20px;
+  border-radius: 16px;
+}
+
+.cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.card-img {
+  border-radius: 16px 16px 0 0 ;
+}
+
+.card-body {
+  margin: 10px;
+  font-family: Karla;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.orderabutton {
+  background-color: #EDEFEE;
+  border-color: #EDEFEE;
+  border-radius: 16px;
+}
+
+footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+  height: auto;
+  padding-top: 20px;
+  background-color: #ee9972;
+}
+
+footer img {
+  align-self: center;
+}
+
+.doormat {
+  color: #333;
+  list-style: none;
+  font-family: Karla;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.doormat li {
+  margin: 12px;
+}
+
+.doormat a {
+  color: black;
+  text-decoration: none;
+}
+
+.doormat a:hover {
+  color: #F4CE14;
+}
